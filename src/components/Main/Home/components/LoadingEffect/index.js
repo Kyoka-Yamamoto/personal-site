@@ -12,10 +12,10 @@ function LoadingEffect() {
     }, []);
 
     const windowWidth = window.innerWidth;
-    const windowHeight = Math.floor(window.innerHeight * 0.95);
+    const windowHeight = window.innerHeight * 0.95;
 
-    const squareWidth = Math.floor(windowWidth / 20);
-    const numSquares = 20 * Math.floor(windowHeight / squareWidth);
+    const squareWidth = windowWidth / 20;
+    const numSquares = 20 * (windowHeight / squareWidth);
     const squares = [];
 
     for (let i = 0; i < numSquares; i++) {

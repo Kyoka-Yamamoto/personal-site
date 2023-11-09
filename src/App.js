@@ -7,7 +7,7 @@ import Header from "./components/Header";
 function App() {
     const scrollToSection = (pageNum) => {
         window.scrollTo({
-            top: pageNum > 0 ? pageNum * window.innerHeight : 0,
+            top: pageNum > 0 ? pageNum * window.innerHeight + 80 : 0,
             behavior: "smooth",
         });
     };
