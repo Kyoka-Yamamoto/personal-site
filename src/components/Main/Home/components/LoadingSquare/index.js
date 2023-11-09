@@ -18,7 +18,7 @@ function LoadingSquare({ width }) {
             style={{
                 height: `${width}px`,
                 width: `${width}px`,
-                opacity: visible ? "100%" : "0%",
+                opacity: visible ? "95%" : "0%",
                 transform: `scale(${visible ? 1 : 0})`,
             }}
         />
