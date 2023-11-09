@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+
+.contact {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.contact-title {
+    font-family: "Edu TAS Beginner", cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.contact-options {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+}
+
+.github,
+.linkedin {
+    width: 48px;
+    height: 48px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1025px) {
+    .contact-title {
+        padding-top: 16px;
+        font-size: 24px;
+        font-weight: 100;
+    }
+}
